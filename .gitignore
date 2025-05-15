@@ -1,0 +1,79 @@
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python分发/打包
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# macOS系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# 数据文件（可选，取决于是否需要版本控制）
+# *.csv
+# *.parquet
+# 如果数据文件较大，可以取消注释上面的行
+
+# 日志文件
+logs/
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE相关
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 环境文件
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 项目特定忽略
+Short_Answer_Grading/data/processed/*.csv
+Dataset/saf_communication_networks_english/.git/
+# 排除整个嵌入式仓库
+Dataset/saf_communication_networks_english/
+
+# 调试文件
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 临时文件
+tmp/
+temp/ 
