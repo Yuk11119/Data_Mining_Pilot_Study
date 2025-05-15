@@ -64,10 +64,8 @@ env.bak/
 venv.bak/
 
 # 项目特定忽略
-Short_Answer_Grading/data/processed/*.csv
+# 只排除嵌套的Git目录，但保留数据文件
 Dataset/saf_communication_networks_english/.git/
-# 排除整个嵌入式仓库
-Dataset/saf_communication_networks_english/
 
 # 调试文件
 .coverage
